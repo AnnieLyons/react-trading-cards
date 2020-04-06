@@ -16,8 +16,5 @@ def show_cards():
 	return render_template("cards.html")
 
 
-
-
-
 if __name__ == "__main__":
 	app.run(debug=True)
